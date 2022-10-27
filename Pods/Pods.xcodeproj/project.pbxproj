@@ -2196,9 +2196,11 @@
 			baseConfigurationReference = 5D19A0DDF5EDAD7F787D12113EE46FAE /* Parse.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Parse";
+				DEVELOPMENT_TEAM = 2G8QN9SRVA;
 				IBSC_MODULE = Parse;
 				INFOPLIST_FILE = "Target Support Files/Parse/ResourceBundle-Parse-Parse-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cocoapods.Parse;
 				PRODUCT_NAME = Parse;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2249,9 +2251,11 @@
 			baseConfigurationReference = 309A71490C9F74ED4AE2799D71ADA954 /* Parse.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Parse";
+				DEVELOPMENT_TEAM = 2G8QN9SRVA;
 				IBSC_MODULE = Parse;
 				INFOPLIST_FILE = "Target Support Files/Parse/ResourceBundle-Parse-Parse-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cocoapods.Parse;
 				PRODUCT_NAME = Parse;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

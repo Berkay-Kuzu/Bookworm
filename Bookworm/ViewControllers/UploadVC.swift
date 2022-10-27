@@ -27,6 +27,11 @@ class UploadVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         uploadImageView.isUserInteractionEnabled = true
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(choosePicture))
         uploadImageView.addGestureRecognizer(gestureRecognizer)
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
+        
     }
     
     @objc func choosePicture() {
@@ -82,5 +87,11 @@ class UploadVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         alert.addAction(okButton)
         self.present(alert, animated: true, completion: nil)
     }
+    
+    @objc func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+    
 
 }
