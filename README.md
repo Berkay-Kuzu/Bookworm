@@ -2,6 +2,7 @@
 Bookworm is an app which the users can save the books they read with their image, name, and comment. The users can sign in, sign up, and log out. They can also see other users' book as a form of table list. To be more precise, when the users tap the related image in the upload screen, their app library is opened and they can easily select the image they want to upload. Furthermore, I used Parse as a back-end server, so all data was saved in Parse such as image, name, comment and etc. Also, I benefited from loops to create the app name animation which can be seen while opening the app. Last but not least, I make use of Canva to create the app logo.
 
 https://user-images.githubusercontent.com/92036779/198228072-549c1d46-708f-42b7-b0cf-9dc960946153.mp4
+
 <img width="358" alt="bookworm" src="https://user-images.githubusercontent.com/92036779/198228116-3f28b059-3420-40a5-ba33-d7597ea93dc0.png">
 <img width="357" alt="bookworm1" src="https://user-images.githubusercontent.com/92036779/198228136-37d078b9-2b57-4ac8-8200-186964b268e7.png">
 <img width="356" alt="bookworm2" src="https://user-images.githubusercontent.com/92036779/198228151-548abc2f-7c82-4a4f-af09-f99131722a1e.png">
